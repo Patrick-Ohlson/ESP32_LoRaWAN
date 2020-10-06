@@ -33,11 +33,13 @@ uint32_t  LICENSE[4] = {  0xDEADBEEF,0xDEADBEEF,0xDEADBEEF,0xDEADBEEF};//470v2
 
 ## Step 2.
 
-Before call to Mcu.begin:
+Before call to Mcu.begin (See -> [Keygen.c](Keygen.c)):
 
-  Keygen(LICENSE);
+  Keygen(LICENSE); 
   
   Mcu.begin(SS,RST_SX127x,DIO0,DIO1,LICENSE);
+  
+  
   
 ## End
 
