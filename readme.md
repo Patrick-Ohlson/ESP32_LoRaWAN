@@ -1,22 +1,37 @@
 ## Start
+
+## START DISCLAIMER
+
+This code is provided without warranty or guarantee. 
+
+This code eats babies.
+
+It may set fire to your computer, blow up your house or generate general havoc. 
+
+Use this software at your own peril.
+
+## END DISCLAIMER
+
+## Intro
+
 Patrick Ohlson 2020 10 06
 
 Caveat: the adjustments on this fork of Heltec LoraWan implementation is only for educational purposes
 
-History:
+## History:
 
 https://twitter.com/pp3dp_se/status/1303342086243184641?s=20
 
 
 
-Step 1.
+## Step 1.
 
 In your main function, declare license like :
 
 uint32_t  LICENSE[4] = {  0xDEADBEEF,0xDEADBEEF,0xDEADBEEF,0xDEADBEEF};//470v2
 
 
-Step 2.
+## Step 2.
 
 Before call to Mcu.begin:
 
