@@ -1,3 +1,30 @@
+## Start
+Patrick Ohlson 2020 10 06
+
+Caveat: the adjustments on this fork of Heltec LoraWan implementation is only for educational purposes
+
+Step 1.
+
+In your main function, declare license like :
+
+uint32_t  LICENSE[4] = {  0xDEADBEEF,0xDEADBEEF,0xDEADBEEF,0xDEADBEEF};//470v2
+
+
+Step 2.
+
+Before call to Mcu.begin:
+
+  Keygen(LICENSE);
+  
+  Mcu.begin(SS,RST_SX127x,DIO0,DIO1,LICENSE);
+  
+## End
+
+
+
+
+
+
 ## Contents
 
 - [The Overview](#the-overview)
