@@ -3,6 +3,12 @@ Patrick Ohlson 2020 10 06
 
 Caveat: the adjustments on this fork of Heltec LoraWan implementation is only for educational purposes
 
+History:
+
+https://twitter.com/pp3dp_se/status/1303342086243184641?s=20
+
+
+
 Step 1.
 
 In your main function, declare license like :
