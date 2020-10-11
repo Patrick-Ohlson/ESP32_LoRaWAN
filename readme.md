@@ -27,6 +27,12 @@ https://twitter.com/pp3dp_se/status/1303342086243184641?s=20
 ## Step 1.
 **THIS CODE ONLY WORKS WITH [heltec_wifi_lora_32_V2.zip](heltec_wifi_lora_32_V2.zip), BE SURE TO DOWNLOAD AND REPLACE BEFORE GOING FURTHER, YOU SHOULD BE ABLE TO USE GENERATED LICENSE WITH NEWER VERSIONS**
 
+**OBS: Use [Keygen.ino](Keygen.ino) for standalone usage, copy generated license, also works with newer versions of library**
+
+
+
+**OBSOLETE INFO BELOW**
+
 **Use these includes:**
 ```
 #include "Arduino.h"
