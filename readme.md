@@ -25,6 +25,20 @@ https://twitter.com/pp3dp_se/status/1303342086243184641?s=20
 
 
 ## Step 1.
+**THIS CODE ONLY WORKS WITH [heltec_wifi_lora_32_V2.zip](heltec_wifi_lora_32_V2.zip), BE SURE TO DOWNLOAD AND REPLACE BEFORE GOING FURTHER, YOU SHOULD BE ABLE TO USE GENERATED LICENSE WITH NEWER VERSIONS**
+
+**Use these includes:**
+```
+#include "Arduino.h"
+#include "board.h"
+#include "LoRaMac.h"
+#include <SPI.h>
+#include <LoRa.h>
+#include <Mcu.h>
+#include <Wire.h>  // Only needed for Arduino 1.6.5 and earlier
+#include "SSD1306.h" // alias for `#include "SSD1306Wire.h"
+```
+
 
 In your main function, declare license like :
 
